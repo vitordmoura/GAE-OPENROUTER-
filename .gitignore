@@ -1,0 +1,11 @@
+# Segredos: nunca versionar
+.env
+.env.*
+!.env.example
+
+# Gerados localmente
+entrega.zip
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/

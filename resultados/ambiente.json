@@ -1,0 +1,13 @@
+{
+  "execucao_inicio_utc": "2026-10-27T22:35:04+00:00",
+  "python": "3.14.0",
+  "sistema_operacional": "Windows",
+  "bibliotecas": {
+    "requests": "2.34.2",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.2",
+    "numpy": "2.3.4"
+  },
+  "endpoint_api": "https://openrouter.ai/api/v1",
+  "execucao_fim_utc": "2026-10-27T22:39:59+00:00"
+}

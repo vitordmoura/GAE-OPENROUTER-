@@ -1,0 +1,9 @@
+{
+  "consultado_em_utc": "2026-10-27T22:35:05+00:00",
+  "is_free_tier": true,
+  "free_model_daily_requests": {
+    "used": 6,
+    "limit": 50,
+    "remaining": 44
+  }
+}

@@ -1,0 +1,10 @@
+Responda em português do Brasil, com no máximo 220 palavras no total, usando exatamente as três seções abaixo, nesta ordem, cada uma iniciada pelo seu título em uma linha própria:
+
+### Conceito
+Explique, em até 3 frases e para um estudante iniciante, o que é overfitting (sobreajuste) em aprendizado de máquina e cite um sinal prático de que ele está ocorrendo.
+
+### Cálculo
+Uma papelaria vende canetas a R$ 2,50 cada e cadernos a R$ 12,00 cada. Ana comprou 4 canetas e 3 cadernos e pagou com uma nota de R$ 100,00. Mostre o cálculo passo a passo e informe o troco.
+
+### Limitações
+Liste exatamente 2 limitações de usar modelos de linguagem gratuitos por meio de uma API, em tópicos curtos.

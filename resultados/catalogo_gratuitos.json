@@ -1,0 +1,442 @@
+{
+  "consultado_em_utc": "2026-10-27T22:35:05+00:00",
+  "endpoint": "https://openrouter.ai/api/v1/models",
+  "total_modelos_no_catalogo": 464,
+  "total_gratuitos_texto": 17,
+  "modelos": [
+    {
+      "id": "cohere/north-mini-code:free",
+      "nome": "Cohere: North Mini Code (free)",
+      "contexto": 256000,
+      "entrada": "text",
+      "saida": "text",
+      "parametros_suportados": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "preco": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "criado_em": "2026-06-17",
+      "descricao": "North Mini Code is Cohere's first agentic coding model and the debut of its North family. A sparse mixture-of-experts model with 30B total parameters and 3B active, it is optimized..."
+    },
+    {
+      "id": "dots-studio/dots-3-note-preview:free",
+      "nome": "Dots Studio: Dots3-Note Preview (free)",
+      "contexto": 512000,
+      "entrada": "text+image",
+      "saida": "text",
+      "parametros_suportados": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "preco": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "criado_em": "2026-08-14",
+      "descricao": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is..."
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it:free",
+      "nome": "Google: Gemma 4 26B A4B  (free)",
+      "contexto": 262144,
+      "entrada": "image+text+video",
+      "saida": "text",
+      "parametros_suportados": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "preco": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "criado_em": "2026-04-03",
+      "descricao": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at..."
+    },
+    {
+      "id": "google/gemma-4-31b-it:free",
+      "nome": "Google: Gemma 4 31B (free)",
+      "contexto": 262144,
+      "entrada": "image+text+video",
+      "saida": "text",
+      "parametros_suportados": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "preco": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "criado_em": "2026-04-02",
+      "descricao": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function..."
+    },
+    {
+      "id": "liquid/lfm-2.5-2.6b:free",
+      "nome": "LiquidAI: LFM2.5-2.6B (free)",
+      "contexto": 65536,
+      "entrada": "text",
+      "saida": "text",
+      "parametros_suportados": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_completion_tokens",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs"
+      ],
+      "preco": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "criado_em": "2026-08-11",
+      "descricao": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or..."
+    },
+    {
+      "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "nome": "NVIDIA: Nemotron 3 Nano Omni (free)",
+      "contexto": 256000,
+      "entrada": "text+audio+image+video",
+      "saida": "text",
+      "parametros_suportados": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "seed",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "preco": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "criado_em": "2026-04-28",
+      "descricao": "NVIDIA Nemotron™ 3 Nano Omni is a 30B-A3B open multimodal model designed to function as a perception and context sub-agent in enterprise agent systems. It accepts text, image, video, and..."
+    },
+    {
+      "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "nome": "NVIDIA: Nemotron 3 Ultra (free)",
+      "contexto": 1000000,
+      "entrada": "text",
+      "saida": "text",
+      "parametros_suportados": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "seed",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "preco": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "criado_em": "2026-06-04",
+      "descricao": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it..."
+    },
+    {
+      "id": "nvidia/nemotron-3.5-content-safety:free",
+      "nome": "NVIDIA: Nemotron 3.5 Content Safety (free)",
+      "contexto": 128000,
+      "entrada": "text+image",
+      "saida": "text",
+      "parametros_suportados": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "seed",
+        "temperature",
+        "top_p"
+      ],
+      "preco": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "criado_em": "2026-06-04",
+      "descricao": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting..."
+    },
+    {
+      "id": "nvidia/nemotron-3.5-lightning:free",
+      "nome": "NVIDIA: Nemotron 3.5 Lightning (free)",
+      "contexto": 1000000,
+      "entrada": "text",
+      "saida": "text",
+      "parametros_suportados": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "seed",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "preco": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "criado_em": "2026-08-11",
+      "descricao": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that..."
+    },
+    {
+      "id": "nvidia/nemotron-3.5-super-vl:free",
+      "nome": "NVIDIA: Nemotron 3.5 Super VL (free)",
+      "contexto": 1000000,
+      "entrada": "text+image+video",
+      "saida": "text",
+      "parametros_suportados": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "preco": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "criado_em": "2026-10-15",
+      "descricao": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video..."
+    },
+    {
+      "id": "openrouter/free",
+      "nome": "Free Models Router",
+      "contexto": 200000,
+      "entrada": "text+image",
+      "saida": "text",
+      "parametros_suportados": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_completion_tokens",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "preco": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "criado_em": "2026-02-01",
+      "descricao": "The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that..."
+    },
+    {
+      "id": "poolside/laguna-s-2.1:free",
+      "nome": "Poolside: Laguna S 2.1 (free)",
+      "contexto": 262144,
+      "entrada": "text",
+      "saida": "text",
+      "parametros_suportados": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "temperature",
+        "tool_choice",
+        "tools"
+      ],
+      "preco": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "criado_em": "2026-07-21",
+      "descricao": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and..."
+    },
+    {
+      "id": "poolside/laguna-xs-2.1:free",
+      "nome": "Poolside: Laguna XS 2.1 (free)",
+      "contexto": 262144,
+      "entrada": "text",
+      "saida": "text",
+      "parametros_suportados": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "temperature",
+        "tool_choice",
+        "tools"
+      ],
+      "preco": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "criado_em": "2026-07-02",
+      "descricao": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines..."
+    },
+    {
+      "id": "recursive/flint-v1.0:free",
+      "nome": "Recursive: Flint (free)",
+      "contexto": 262144,
+      "entrada": "text",
+      "saida": "text",
+      "parametros_suportados": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "temperature",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "preco": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "criado_em": "2026-10-21",
+      "descricao": "Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents. It is suited..."
+    },
+    {
+      "id": "thinkingmachines/inkling-small:free",
+      "nome": "Thinking Machines: Inkling Small (free)",
+      "contexto": 1048576,
+      "entrada": "text+image+audio",
+      "saida": "text",
+      "parametros_suportados": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "seed",
+        "stop",
+        "temperature",
+        "tools",
+        "top_p"
+      ],
+      "preco": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "criado_em": "2026-07-30",
+      "descricao": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of..."
+    },
+    {
+      "id": "thinkingmachines/inkling:free",
+      "nome": "Thinking Machines: Inkling (free)",
+      "contexto": 1048576,
+      "entrada": "text+image+audio",
+      "saida": "text",
+      "parametros_suportados": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "seed",
+        "stop",
+        "temperature",
+        "tools",
+        "top_p"
+      ],
+      "preco": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "criado_em": "2026-07-17",
+      "descricao": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,..."
+    },
+    {
+      "id": "xingchen-agi/xing4.0-29b-a4b:free",
+      "nome": "XingChen: Xing4.0 29B A4B (free)",
+      "contexto": 262144,
+      "entrada": "text",
+      "saida": "text",
+      "parametros_suportados": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "preco": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "criado_em": "2026-10-16",
+      "descricao": "Xing4.0-29B-A4B is an open-weight mixture-of-experts language model from China Telecom's AI team (TeleAI) and the successor to the TeleChat series. It has 29B total parameters with 4B active per token..."
+    }
+  ]
+}
