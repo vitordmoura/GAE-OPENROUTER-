@@ -3,7 +3,7 @@
 **Aluno:** Vitor de Moura Nascimento (RM 553806)  
 **Turma:** 4ESPS  
 **Modelos comparados:** `nvidia/nemotron-3-ultra-550b-a55b:free` (A) e `dots-studio/dots-3-note-preview:free` (B)  
-**Execução final:** 27/10/2026, entre 22:35 e 22:40 (UTC)
+
 
 Neste trabalho, o mesmo prompt foi enviado, com os mesmos parâmetros, para dois modelos marcados como gratuitos no catálogo do OpenRouter no momento da execução. As respostas foram comparadas com métricas objetivas (formato, idioma, limite de palavras, acerto de um cálculo com resposta conhecida e quantidade de itens pedidos) e com uma análise escrita das respostas.
 
